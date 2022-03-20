@@ -24,7 +24,7 @@ Two user stories are implemented in the app :
 The architecture is based on the AAC (Android Architecture Components) that provides tools to manage :
 - Data persistence 
 - The application life cycle
-- The cinteraction between UI components and Data
+- The interaction between UI components and Data
 
 The project's structure contains six packages : 
 - api : 
@@ -39,11 +39,14 @@ The project's structure contains six packages :
   - Data is fetched from spoonacular api
   - Database is cleared from data 
   - The newly fetched data is inserted in database 
- 
+- ui
+  - This package contains the main activity and the three fragments of the application
+- vm
+  - This package defines the RecipeViewModel that uses LiveData as a data holder
 
 ## References 
-- api documentation
-- tutoriel de fuel
-- recycler view de android 
-- Room documentatioon
+- Spoonacular documentation :  https://spoonacular.com/food-api/docs
+- Fuel Tutorial : https://blog.ippon.fr/2018/11/30/android-architecture-components-mise-en-pratique-part-5-fuel/
+- RecyclerView documentation : https://developer.android.com/guide/topics/ui/layout/recyclerviewgclid=CjwKCAjwoduRBhA4EiwACL5RPwFLig9K5ugJ8TeJ8XrjL2cuhooAq5WiNo_0ys82ygeubZM0tzZnXRoCm-UQAvD_BwE&gclsrc=aw.ds 
+- Room documentatioon : https://developer.android.com/training/data-storage/room
 
