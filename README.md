@@ -21,6 +21,29 @@ Two user stories are implemented in the app :
 ## Screens
 
 ## Architecture
+The architecture is based on the AAC (Android Architecture Components) that provides tools to manage :
+- Data persistence 
+- The application life cycle
+- The cinteraction between UI components and Data
 
+The project's structure contains six packages : 
+- api : 
+  - This package manages the call of the api spoonaciluar and the deserialization of the json response
+  - The api is called using Fuel library
+- db : 
+  - This package defines the database schema using the ORM Room
+- di :
+  - This package defines the dependency injection graph using Koin library
+- repository
+  - This package defines the data access layer. A coroutine is used to fetch data in three steps :
+  - Data is fetched from spoonacular api
+  - Database is cleared from data 
+  - The newly fetched data is inserted in database 
+ 
 
 ## References 
+- api documentation
+- tutoriel de fuel
+- recycler view de android 
+- Room documentatioon
+
