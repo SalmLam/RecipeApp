@@ -19,6 +19,8 @@ Two user stories are implemented in the app :
 - As a user, I want to get details about the recipe so that I know its instructions and nutrional information
 
 ## Screens
+![Alt text](home_pic.png?raw=true "Title")
+
 
 ## Architecture
 The architecture is based on the AAC (Android Architecture Components) that provides tools to manage :
