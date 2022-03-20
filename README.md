@@ -19,7 +19,9 @@ Two user stories are implemented in the app :
 - As a user, I want to get details about the recipe so that I know its instructions and nutrional information
 
 ## Screens
-![Alt text](home_pic.png?raw=true "Title")
+![Alt text](recipeHome.png?raw=true "Home page")
+![Alt text](recipelist.png?raw=true "Rcipes list page")
+![Alt text](details.png?raw=true "Rcipes Details page")
 
 
 ## Architecture
