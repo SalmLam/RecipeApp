@@ -3,7 +3,7 @@ RecipeApp is and android application that gives users random recipes to help the
 
 ## Overview
 
-RecipeApp consumes the api : https://spoonacular.com/food-api using the endpoint /random 
+RecipeApp consumes the api : https://spoonacular.com/food-api using the endpoint /random\\
 Using the api required an API key that we got simply by registering in the website. The  API key is hard coded in the Routing configuration
 
 ## User stories
